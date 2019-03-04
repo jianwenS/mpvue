@@ -1,0 +1,37 @@
+<view class="search">
+<!-- 搜索框 -->
+  <view class="search-in">
+      <image src='/images/icon_search@2x.png'/>
+      <text>搜索</text>
+  </view>
+</view>
+  <!-- 轮播图 -->
+  <swiper class='swiper-main' indicator-dots="true" circular="true" indicator-active-color="#ffffff"  autoplay="true">
+    <swiper-item>
+      <image class="swiper-item-image" src="/upload/banner1.png"/>
+    </swiper-item>
+    <swiper-item>
+      <image  class="swiper-item-image"  src="/upload/banner2.png" />
+    </swiper-item>
+    <swiper-item>
+      <image  class="swiper-item-image"  src="/upload/banner3.png" />
+    </swiper-item>
+    <swiper-item>
+      <image class="swiper-item-image"  src="/upload/banner4.png" />
+    </swiper-item>
+  </swiper>
+  <!-- 导航栏 -->
+  <view class='nav-link'>
+      <navigator url=''  hover-class='none'>
+         <image class="nav-link-item" src="/upload/icon_index_nav_1@2x.png"/>
+      </navigator>
+      <navigator url=''  hover-class='none'>
+         <image class="nav-link-item" src="/upload/icon_index_nav_2@2x.png"/>
+      </navigator>
+      <navigator url=''  hover-class='none'>
+         <image class="nav-link-item" src="/upload/icon_index_nav_3@2x.png"/>
+      </navigator>
+      <navigator url=''  hover-class='none'>
+         <image class="nav-link-item" src="/upload/icon_index_nav_4@2x.png"/>
+      </navigator>
+  </view>

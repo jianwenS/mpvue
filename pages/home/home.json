@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#f40",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "云商城",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+}
